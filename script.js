@@ -19,5 +19,40 @@ $(document).ready(function(){
     });
   });
 
+//for development what we do
+  $(".developmentimg").click(function(){
+    $(".desp2").toggle(function(){
+      
+    });
+    $(".developmentimg").toggle(function(){
+
+    });
+  });
+  $(".desp2").click(function(){
+    $(".desp2").toggle(function(){
+      
+    });
+    $(".developmentimg").toggle(function(){
+
+    });
+  });
+
+  //for management what we do
+  $(".mgmtimg").click(function(){
+    $(".desp3").toggle(function(){
+      
+    });
+    $(".mgmtimg").toggle(function(){
+
+    });
+  });
+  $(".desp3").click(function(){
+    $(".desp3").toggle(function(){
+      
+    });
+    $(".mgmtimg").toggle(function(){
+
+    });
+  });
 
 });
