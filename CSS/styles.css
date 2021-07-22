@@ -8,6 +8,9 @@
 h1{
   font-size: 50px;
 }
+.form-control{
+  background: none;
+}
 #about {
   text-align: center;
 }
@@ -21,10 +24,23 @@ h1{
   text-align: center;
 }
 
+#contact{
+  background: url(../assets/backgrounds/c_image.jpg);
+  background-size: cover;
+  color: white;
+}
 .col-md-3{
   padding: 0%;
   height: 210px;
   background-color: violet ;
+}
+#SUBMIT{
+  color: white;
+  width: 100px;
+}
+.desp1, .desp2, .desp3{
+  text-align: center;
+  display: none;
 }
 
 .tb0 {
