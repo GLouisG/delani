@@ -42,6 +42,16 @@ h1{
   text-align: center;
   display: none;
 }
+.for-tb0, .for-tb1, .for-tb2, .for-tb3, .for-tb4, .for-tb5, .for-tb6, .for-tb7 {
+display: none;
+text-align: center;
+color: white;
+border: solid 10px whitesmoke;
+height: 180px;
+margin-top: 15px;
+margin-left: 15px;
+margin-right: 15px;
+}
 
 .tb0 {
   background-image: url(../assets/portfolio/woork1.jpg);
@@ -75,4 +85,11 @@ h1{
 .tb7 {
   background-image: url(../assets/portfolio/work8.jpg);
   background-size: cover;
+}
+
+
+.tbl-row {
+  margin: 1em;
+  border: 1px solid red;
+
 }

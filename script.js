@@ -55,4 +55,15 @@ $(document).ready(function(){
     });
   });
 
+  
+  
+  var cells = ["tb0", "tb1","tb2", "tb3","tb4", "tb5", "tb6", "tb7" ];
+cells.forEach(function(cell){
+  $("."+cell).hover(function(){
+    $(".for-"+cell).toggle(function(){
+
+    });
+  });
+});
+  
 });
