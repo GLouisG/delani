@@ -66,6 +66,10 @@ cells.forEach(function(cell){
   });
 });
 
-
+$("form").submit(function(event){
+  var theName = document.getElementById("NAME").value;
+  alert(theName +"We have received your message");
+  event.preventDefault();
+});
 });
   
