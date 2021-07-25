@@ -98,7 +98,6 @@ cursor: pointer;
 
 .tbl-row {
   margin: 1em;
-  border: 1px solid red;
 
 }
 
@@ -106,4 +105,25 @@ cursor: pointer;
   border: solid 5px white;
   height: 210px;
 }
+#mce-FNAME, #mce-EMAIL, #mce-MESSAGE{
+  color: white;
+}
+::placeholder{
+  color: white !important;
+}
+h2{
+  text-align: center;
+}
 
+#portfolio {
+margin-left: 120px;
+margin-right: 120px;
+}
+
+.socials{
+  align-content: center;
+  text-align: center;
+}
+.socialstable{
+  margin-left: 300px;
+}

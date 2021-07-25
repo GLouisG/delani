@@ -56,9 +56,10 @@ $(document).ready(function(){
   });
 
   
-  
+  //Business Logic
   var cells = ["tb0", "tb1","tb2", "tb3","tb4", "tb5", "tb6", "tb7" ];
 cells.forEach(function(cell){
+  //User Interface Logic
   $("."+cell).hover(function(){
     $(".for-"+cell).toggle(function(){
 
@@ -67,8 +68,10 @@ cells.forEach(function(cell){
 });
 
 $("form").submit(function(event){
-  var theName = document.getElementById("NAME").value;
+  //User Interface Logic
+  var theName = document.getElementById("mce-FNAME").value;
   alert(theName +"We have received your message");
+  //Business Logic
   event.preventDefault();
 });
 });
