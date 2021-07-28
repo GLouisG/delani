@@ -72,7 +72,7 @@ $("form").submit(function(event){
   var theName = document.getElementById("mce-FNAME").value;
   alert(theName +"We have received your message");
   //Business Logic
-  event.preventDefault();
+  
 });
 });
   
