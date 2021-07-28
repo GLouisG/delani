@@ -58,20 +58,20 @@ $(document).ready(function(){
   
   //Business Logic
   var cells = ["tb0", "tb1","tb2", "tb3","tb4", "tb5", "tb6", "tb7" ];
-cells.forEach(function(cell){
-  //User Interface Logic
-  $("."+cell).hover(function(){
-    $(".for-"+cell).toggle(function(){
+  cells.forEach(function(cell){
+   //User Interface Logic
+   $("."+cell).hover(function(){
+     $(".for-"+cell).toggle(function(){
 
+      });
     });
   });
-});
 
-$("form").submit(function(event){
-  //User Interface Logic
-  var theName = document.getElementById("mce-FNAME").value;
-  alert(theName +"We have received your message");
-  //Business Logic
+  $("form").submit(function(event){
+    //User Interface Logic
+    var theName = document.getElementById("mce-FNAME").value;
+    alert(theName +"We have received your message");
+    //Business Logic
   
 });
 });
